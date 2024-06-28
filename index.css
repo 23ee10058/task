@@ -1,0 +1,377 @@
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    scroll-behavior: smooth;
+    background-color: rgba(0, 0, 0, 0.327);
+    height: 90%;
+    
+    overflow-x: scroll;
+}
+.nav_bar{
+     float: right;
+   
+    display: flex;
+    text-decoration: dotted;
+    align-items: center;
+    text-align: center;
+    transform: translateY(1.5vw);
+    scroll-behavior: smooth;
+    
+    
+    
+}
+
+.link{
+  margin-right: 15px;
+  margin-left: 10px;
+  color: whitesmoke;
+  
+}
+.navbar_container{
+    
+    height:50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.429);
+   border-radius: 16px;
+   border-bottom: 3px solid white;
+}
+#link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+
+}
+#img{
+    height: 50px;
+    transform: translate(-17rem);
+  
+    background-color: aliceblue;
+
+}
+#Home{
+    transform: translate(0rem,40px);
+    
+    height: 30rem;
+    display: flex;
+    font-size: 30px;
+    color: blueviolet;
+    border-bottom: 3px solid white;
+}
+#lorem{
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.intro{
+    height: 30rem;
+    width: 50%;
+    transform: translate(-0rem);
+    
+}
+.start{
+    transform: translate(0,100px);
+    color: rgb(226, 43, 183);
+    font-size: 16px;
+    font-family: cursive;
+}
+.name{
+    transform: translate(0,60px);
+    color: rgb(43, 89, 226);
+    font-size: 43px;
+    font-family: cursive;
+}
+#name{
+    font-size: 49px;
+    transform: translate(0,20px);
+    font-family: cursive;
+    color: rgb(170, 0, 255);
+}
+.but{
+    height: 40px;
+    transform: translateY(1.5vw);
+    border: none;
+    background-color: pink;
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    animation-name: animated;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes animated{
+    0%{
+        background-color: red;
+        color: blue;
+    }
+    25%{
+        background-color: green;
+        color: white;
+    }
+    50%{
+        background-color: blue;
+        color:green;
+    }
+    75%{
+        background-color: green;
+        color: white;
+    }
+    100%{
+        background-color: red;
+        color: blue;
+    }
+}
+.but:active{
+    background-color: rgba(0, 0, 255,0.5);
+}
+.image{
+    border: 1px solid ;
+    height: 30rem;
+    transform: translate(150px);
+    border: none;
+}
+#image{
+    height: 30rem;
+    width: 30rem;
+    width: fit-content;
+    
+    
+}
+#MyProjects{
+  
+    transform: translateY(100px);
+    height: fit-content;
+    display: flex;
+    
+    
+    
+}
+.card_container{
+    height: 30vw;
+    
+    
+    flex-wrap: wrap;
+    
+   transform: translate(-50px,100px);
+   display: flex;
+   justify-content: space-between;
+}
+.card1{
+    height: 400px;
+    width: 250px;
+    border: 1px solid ;
+   margin-right: 50px;
+   border: 3px dashed rgb(17, 0, 128);
+}
+#todo_img{
+    height: 120px;
+    transform: translate(0,10px);
+}
+.app{
+    transform: translate(0,50px);
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.632);
+    color: whitesmoke;
+    border-radius: 10px;
+    animation-name: animated;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border: none;
+}
+.app:active{
+    background-color: brown;
+    color: blue;
+}
+.app:hover{
+    background-color: aqua;
+    color: red;
+}
+#project{
+    font-size: 30px;
+    color: blueviolet;
+}
+#skills{
+   position: relative;
+   top: 250px;
+   border-bottom: 3px solid white;
+   border-top: 3px solid white;
+  height:65rem;
+   
+}
+#skill_name{
+    transform: translate(-450px,00px);
+    height: 30vw;
+    color: blueviolet;
+    font-size: 30px;
+}
+.card2{
+    height: 400px;
+    width: 300px;
+    border: 1px solid ;
+   margin-right: 50px;
+   border: 3px dashed green;
+   border-radius: 10px;
+}
+.container1{
+    display: flex;
+    transform: translate(100px,-300px);
+}
+#css{
+    height: 168px;
+}
+#css_but{
+    font-size: 40px;
+    transform: translate(0,40px);
+    border-radius: 10px;
+    animation-name: animated;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border: none;
+}
+.container2{
+    display: flex;
+
+}
+.card3{
+    height: 400px;
+    width:300px;
+    border: 3px dashed rgb(128, 0, 0);
+    transform: translate(250px,-250px);
+    margin-right: 40px;
+    border-radius: 10px;
+
+}
+#redux{
+    height: 153px;
+}
+#react{
+    height: 150px;
+}
+#Contact{
+    transform: translate(0,230px);
+    background-image: url('img2.jpeg');
+    height: 40rem;
+    background-size: cover;
+    border-bottom: 3px solid whitesmoke;
+    
+}
+#contact_name{
+    color:rgb(27, 26, 26);
+    font-size: 30px;
+    font-family: cursive;
+}
+.text{
+    width: 48rem;
+    transform: translate(260px,0px);
+    border: 1px dashed red;
+    font-weight: 700;
+    border-radius: 15px;
+    
+}
+.input{
+    transform: translate(400px,00px);
+}
+#input_name{
+    background-color: transparent;
+    margin: 10px;
+    height: 40px;
+    width: 23rem;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+input::placeholder{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+input::-webkit-input-placeholder{
+    color: black;
+}
+#date{
+    transform: translate(-100px,-20px);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: cursive;
+    
+    font-style: italic;
+
+}
+#date_1{
+    transform: translate(0,-40px);
+    height: 40px;
+    width: 23rem;
+    background-color: transparent;
+}
+#sub{
+    font-size: 20px;
+    
+    font-family: cursive;
+    font-style: italic;
+   
+}
+#message{
+    background-color: transparent;
+    width: 500px;
+    transform: translate(200px);
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 4px;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.mess{
+    transform: translate(-27rem,-300px);
+}
+.cont_button{
+    transform: translate(0,-200px);
+}
+.submit{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    animation-name: create;
+    
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+@keyframes create{
+    0%{
+        background-color: red;
+        color: blue;
+    }
+    25%{
+        background-color: green;
+        color: white;
+    }
+    50%{
+        background-color: blue;
+        color:green;
+    }
+    75%{
+        background-color: green;
+        color: white;
+    }
+    100%{
+        background-color: red;
+        color: blue;
+    }
+}
+.submit:active{
+    animation: none;
+}
